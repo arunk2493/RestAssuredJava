@@ -1,0 +1,17 @@
+{
+  "id": 2708,
+  "category": {
+    "id": 2708,
+    "name": "Birds"
+  },
+  "name": "Budgie",
+  "photoUrls": ["http://www.google.png"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Blue budgies"
+    }
+  ],
+  "status": "available"
+}

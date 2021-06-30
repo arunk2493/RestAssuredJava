@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-30T18:12:38 IST" name="Sample Test" finished-at="2021-06-30T18:12:44 IST" duration-ms="6323">
+    <groups>
+    </groups>
+    <test started-at="2021-06-30T18:12:38 IST" name="Get Pet by status" finished-at="2021-06-30T18:12:44 IST" duration-ms="6323">
+      <class name="SampleTest">
+        <test-method signature="getPetByStatus()[pri:0, instance:SampleTest@17d0685f]" started-at="2021-06-30T18:12:38 IST" name="getPetByStatus" finished-at="2021-06-30T18:12:44 IST" duration-ms="6287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetByStatus -->
+      </class> <!-- SampleTest -->
+    </test> <!-- Get Pet by status -->
+  </suite> <!-- Sample Test -->
+</testng-results>
