@@ -14,12 +14,32 @@
             <artifactId>testng</artifactId>
             <version>7.1.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>4.3.3</version>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-path</artifactId>
+            <version>4.3.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.3.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>xml-path</artifactId>
+            <version>4.3.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
@@ -27,14 +47,22 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1.1</version>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.3.0</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
-            <artifactId>json-schema-validator</artifactId>
-            <version>3.0.0</version>
+            <artifactId>rest-assured</artifactId>
+            <version>4.3.3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.3.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

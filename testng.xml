@@ -2,7 +2,7 @@
 <suite name="Sample Test" verbose="1">
     <test name="Get Pet by status">
         <classes>
-            <class name="SampleTest" />
+            <class name="ResponseTest" />
         </classes>
     </test>
 </suite>

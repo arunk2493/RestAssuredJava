@@ -1,2 +1,8 @@
 *.iml
 .idea/*.xml
+target/*
+.idea/libraries/
+.idea/compiler.xml
+.idea/misc.xml
+
+
