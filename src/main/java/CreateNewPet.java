@@ -21,7 +21,8 @@ public class CreateNewPet {
     @Test
     public void getPetByStatus(){
         RestAssured.given()
-                .get(" https://petstore.swagger.io/v2/pet/findByStatus?status="+petstatus)
+                .queryParam("status="+petstatus)
+                .get(" https://petstore.swagger.io/v2/pet/findByStatus")
                 // THEN
                 .then().log().body()
                 .assertThat().statusCode(200);
